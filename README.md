@@ -23,8 +23,13 @@
     
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=)    
 
+# Deploy
+- Crear nueva aplicación en heroku
+- Vaya a la configuración de la aplicación>> config vars>> agregue todas las variables obligatorias
+- Conectarse a github desde heroku y click en desplegar
+- Encienda los dynos
 
-# Deploy Manualmente: 
+# Deploy vps: 
 - sudo apt update 
 - sudo apt install -y python3.8 
 - sudo apt install -y python3-venv 
