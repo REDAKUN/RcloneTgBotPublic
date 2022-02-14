@@ -1,4 +1,4 @@
-# Commands for bot 
+# Commandos del bot 
 - subir - subir a la nube 
 - copiar - copiar de una nube a la otra
 - configuracion - configurar rclone 
@@ -9,12 +9,12 @@
 - test_velocidad- test velocidad 
 - limpiar- limpiar descargas
 
-# Secrets for github
+# Secrets para github
     HEROKU_API_KEY
     HEROKU_APP_NAME
     HEROKU_EMAIL
 
-# Mandatory variables
+# Variables Obligatorias 
 - API_HASH 
 - API_ID 
 - BOT_TOKEN 
