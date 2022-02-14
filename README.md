@@ -1,4 +1,4 @@
-#Commands for bott 
+# Commands for bot 
 - subir - subir a la nube 
 - copiar - copiar de una nube a la otra
 - configuracion - configurar rclone 
@@ -9,17 +9,22 @@
 - test_velocidad- test velocidad 
 - limpiar- limpiar descargas
 
-#Secrets for github
-
+# Secrets for github
     HEROKU_API_KEY
     HEROKU_APP_NAME
     HEROKU_EMAIL
-    
+
+# Mandatory variables
+- API_HASH 
+- API_ID 
+- BOT_TOKEN 
+- OWNER_ID 
+- RCLONE_CONFIG    
     
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=)    
 
 
-#Deploy Manual Run the following commands. (Following commands can be used to setup the vps from scratch) 
+# Deploy Manualmente: 
 - sudo apt update 
 - sudo apt install -y python3.8 
 - sudo apt install -y python3-venv 
@@ -27,6 +32,8 @@
 - source venv/bin/activate 
 - pip install -r requirements.txt 
 - curl https://rclone.org/install.sh | bash
+- chmod 777 start.sh
+- ./start.sh
 
-And finally run this in clonned folder. chmod 777 start.sh ./start.sh
+
 
